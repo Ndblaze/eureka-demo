@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Eureka-demo/static/css/main.be392d7c.css",
+    "main.js": "/Eureka-demo/static/js/main.b6fa7de8.js",
+    "static/js/787.961e05a7.chunk.js": "/Eureka-demo/static/js/787.961e05a7.chunk.js",
+    "static/media/overviewWeb.png": "/Eureka-demo/static/media/overviewWeb.9cae498c88faf8210b12.png",
+    "static/media/featuresImageLeft.png": "/Eureka-demo/static/media/featuresImageLeft.a27e95ed2e07c3d0859c.png",
+    "static/media/featuresImageRight.png": "/Eureka-demo/static/media/featuresImageRight.ba96d64af1b9d855223b.png",
+    "static/media/featuresImageCenter.png": "/Eureka-demo/static/media/featuresImageCenter.34f2e821a5d457859bd5.png",
+    "static/media/goodazz.png": "/Eureka-demo/static/media/goodazz.0e0a2a4995dc145ac056.png",
+    "static/media/zara.png": "/Eureka-demo/static/media/zara.d352238527f6b1357887.png",
+    "static/media/des2.png": "/Eureka-demo/static/media/des2.4b640d1bfc690b6e0f5c.png",
+    "static/media/logo.png": "/Eureka-demo/static/media/logo.6b5421332e509a23461f.png",
+    "index.html": "/Eureka-demo/index.html",
+    "main.be392d7c.css.map": "/Eureka-demo/static/css/main.be392d7c.css.map",
+    "main.b6fa7de8.js.map": "/Eureka-demo/static/js/main.b6fa7de8.js.map",
+    "787.961e05a7.chunk.js.map": "/Eureka-demo/static/js/787.961e05a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be392d7c.css",
+    "static/js/main.b6fa7de8.js"
+  ]
+}
