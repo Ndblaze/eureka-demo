@@ -17,7 +17,7 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarContainer isOpen={isOpen} onClick={toggle}>
         <Icon>
           <CloseIcon />
-          <LogoContainer to="/home" onClick={toggleHome}>
+          <LogoContainer to="/eureka-demo" onClick={toggleHome}>
             <Logo src={logo} />{" "}
           </LogoContainer>
         </Icon>

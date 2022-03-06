@@ -39,7 +39,7 @@ const Nav = ({ toggle }) => {
         >
           About
         </About>
-        <LogoContainer to="/home" onClick={toggleHome}>
+        <LogoContainer to="/eureka-demo" onClick={toggleHome}>
           {" "}
           <Logo src={logo} />{" "}
         </LogoContainer>
