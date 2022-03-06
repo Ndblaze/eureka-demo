@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route exact path="/home" element={<Home />} />
+        <Route exact path="/Eureka-demo/home" element={<Home />} />
       </Routes>
     </BrowserRouter>
     </div>
