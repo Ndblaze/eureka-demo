@@ -26,11 +26,9 @@ export default Contact;
 
 const Container = styled.div`
   height: 500px;
-  background-color: ${colors.gray};
+  background-color: ${colors.pink};
+  //background-color: pink;
  
-  @media screen and (max-width: 600px) {
-    background-color: pink;
-  }
 `;
 
 const Left = styled.div`
@@ -69,7 +67,7 @@ const Name = styled.input`
   width: 80%;
   height: 3rem;
   margin-bottom: 1.5rem;
-  border: 1px solid ${colors.black};
+  border: none;
   border-radius: 0.8rem;
   padding-left: 1rem;
   font-size: 1.1rem;
@@ -86,7 +84,7 @@ const Email = styled.input`
   width: 80%;
   height: 3rem;
   margin-bottom: 1.5rem;
-  border: 1px solid ${colors.black};
+  border: none;
   border-radius: 0.8rem;
   padding-left: 1rem;
   font-size: 1.1rem;
@@ -102,7 +100,7 @@ const Email = styled.input`
 const Message = styled.textarea`
   width: 80%;
   height: 7rem;
-  border: 1px solid ${colors.black};
+  border: none;
   border-radius: 0.8rem;
   font-size: 1.1rem;
   padding-left: 1rem;
