@@ -148,7 +148,7 @@ const Message = styled.textarea`
 
   @media screen and (max-width: 768px) {
     height: 6rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     font-size: 0.8rem;
     width: 90%;
   }
