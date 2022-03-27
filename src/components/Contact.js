@@ -48,10 +48,10 @@ const Container = styled.div`
   height: 550px;
   background-color: #eeeeee;
   font-family: "Red Hat Text", sans-serif;
-  
 
   @media screen and (max-width: 600px) {
     background-color: pink;
+    height: 500px;
   }
 `;
 const Content = styled.div`
@@ -75,6 +75,10 @@ const Left = styled.div`
     padding: 0rem 0rem;
     width: 100%;
     height: 100%;
+
+    & > div {
+      width: 100%;
+    }
   }
 `;
 
@@ -86,6 +90,7 @@ const Header = styled.h1`
 
   @media screen and (max-width: 900px) {
     font-size: 2rem;
+    margin-left: 30px;
   }
 `;
 
@@ -105,9 +110,9 @@ const Name = styled.input`
   background-color: #e5e5e5;
 
   @media screen and (max-width: 768px) {
-    height: 2.5rem;
-    width: 85%;
-    border: none;
+    height: 2rem;
+    font-size: 0.8rem;
+    width: 90%;
   }
 `;
 
@@ -123,9 +128,9 @@ const Email = styled.input`
   background-color: #e5e5e5;
 
   @media screen and (max-width: 768px) {
-    height: 2.5rem;
-    width: 85%;
-    border: none;
+    height: 2rem;
+    font-size: 0.8rem;
+    width: 90%;
   }
 `;
 
@@ -142,9 +147,10 @@ const Message = styled.textarea`
   background-color: #e5e5e5;
 
   @media screen and (max-width: 768px) {
-    height: 5rem;
-    width: 85%;
-    border: none;
+    height: 6rem;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    width: 90%;
   }
 `;
 
@@ -159,9 +165,10 @@ const Button = styled.button`
 
   @media screen and (max-width: 768px) {
     height: 2.5rem;
+    font-size: 1.1rem;
   }
 
-  &:hover{
+  &:hover {
     border: 1px solid white;
   }
 `;
