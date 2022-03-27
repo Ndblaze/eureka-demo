@@ -23,7 +23,7 @@ const Contact = () => {
         </Left>
         <Right>
           <Discription>
-            <span>W</span>e are <br /> online on
+            <span>W</span>e  are <br /> online  on
           </Discription>
           <SocialIcon>
             <Icons>
@@ -162,10 +162,12 @@ const Button = styled.button`
   border: 1px solid black;
   font-size: 1.2rem;
   font-weight: 600;
+  float: right;
 
   @media screen and (max-width: 768px) {
     height: 2.5rem;
     font-size: 1.1rem;
+    float: left;
   }
 
   &:hover {
@@ -186,19 +188,23 @@ const Right = styled.div`
 `;
 
 const Discription = styled.h1`
-  font-size: 4rem;
-  font-weight: 1000;
-  letter-spacing: 0.8rem;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 6.5rem;
 
   & > span {
-    font-size: 8rem;
+    font-size: 9rem;
+    font-weight: 1000;
   }
 `;
 const SocialIcon = styled.div`
   display: flex;
+  justify-content: center;
+  align-items:center ;
+  margin-top: -30px;
 `;
 
 const Icons = styled.div`
-  font-size: 3rem;
-  margin-right: 2rem;
+  font-size: 4rem;
+  margin-right: 4rem;
 `;

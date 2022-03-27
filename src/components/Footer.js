@@ -23,8 +23,9 @@ const Container = styled.div`
   align-items: center;
   border-top: 1px solid #fff;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
     background-color: pink;
+    display: none;
   }
 `;
 const Content = styled.div`
