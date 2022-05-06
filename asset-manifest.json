@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eureka-demo/static/css/main.be392d7c.css",
-    "main.js": "/eureka-demo/static/js/main.09208256.js",
+    "main.js": "/eureka-demo/static/js/main.289a4125.js",
     "static/js/787.961e05a7.chunk.js": "/eureka-demo/static/js/787.961e05a7.chunk.js",
     "static/media/overviewWeb.png": "/eureka-demo/static/media/overviewWeb.9cae498c88faf8210b12.png",
     "static/media/featuresImageLeft.png": "/eureka-demo/static/media/featuresImageLeft.a27e95ed2e07c3d0859c.png",
@@ -10,14 +10,15 @@
     "static/media/goodazz.png": "/eureka-demo/static/media/goodazz.0e0a2a4995dc145ac056.png",
     "static/media/zara.png": "/eureka-demo/static/media/zara.d352238527f6b1357887.png",
     "static/media/des2.png": "/eureka-demo/static/media/des2.4b640d1bfc690b6e0f5c.png",
+    "static/media/James.png": "/eureka-demo/static/media/James.ceddbb284c0c75bcdf6e.png",
     "static/media/logo.png": "/eureka-demo/static/media/logo.6b5421332e509a23461f.png",
     "index.html": "/eureka-demo/index.html",
     "main.be392d7c.css.map": "/eureka-demo/static/css/main.be392d7c.css.map",
-    "main.09208256.js.map": "/eureka-demo/static/js/main.09208256.js.map",
+    "main.289a4125.js.map": "/eureka-demo/static/js/main.289a4125.js.map",
     "787.961e05a7.chunk.js.map": "/eureka-demo/static/js/787.961e05a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be392d7c.css",
-    "static/js/main.09208256.js"
+    "static/js/main.289a4125.js"
   ]
 }
