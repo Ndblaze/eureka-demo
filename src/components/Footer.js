@@ -1,12 +1,16 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <Container>
       <Content>
         <Text>How to</Text>
-        <Text>Terms & Conditions</Text>
+
+        <TearmsLink to="/eureka-demo/terms-conditions">
+          Terms & Conditions
+        </TearmsLink>
       </Content>
     </Container>
   );
@@ -39,6 +43,17 @@ const Text = styled.h2`
   font-size: 1.3rem;
   font-weight: 900;
 
+  @media screen and (max-width: 600px) {
+    font-size: 1rem;
+  }
+`;
+
+const TearmsLink = styled(Link)`
+  font-size: 1.3rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: #000;
+  
   @media screen and (max-width: 600px) {
     font-size: 1rem;
   }

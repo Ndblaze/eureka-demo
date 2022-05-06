@@ -4,14 +4,14 @@ import styled from "styled-components";
 import Zim from "../Assets/images/goodazz.png";
 import david from "../Assets/images/zara.png";
 import des from "../Assets/images/des2.png";
-import James from "../Assets/images/zara.png";
+import James from "../Assets/images/James.png";
 
 const About = () => {
   const teams = [
-    { title: "zim", img: Zim },
+    { title: "Goodhode Kudakwashe, Back-end Engineer", img: Zim },
     { title: "david", img: david },
-    { title: "desmond", img: des },
-    { title: "James (blaze)", img: James },
+    { title: "Desmond, Co Enjoyment Officer", img: des },
+    { title: "Ndubuisi James (@nd_blaze), Front-end Engineer", img: James },
   ];
 
   const Team = () =>

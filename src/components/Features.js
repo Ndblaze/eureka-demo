@@ -12,9 +12,12 @@ const Features = () => {
       <Content>
         <Right>
           <div>
-            <Header>
-              Inside, <br /> who's that ?
-            </Header>
+            <HeaderRight>
+              <h2>
+                Inside, <br /> who's that ?{" "}
+              </h2>
+              <span> Attend any events of your choice</span>
+            </HeaderRight>
             <Discription>
               2020/2021 was alot
               <br />
@@ -32,8 +35,8 @@ const Features = () => {
           <div>
             <Header>Earn money from selling your stuff</Header>
             <Discription>
-              Leaving the country ✈️ or got stuff to sell/don't need and want extra
-              cash 💵💵
+              Leaving the country ✈️ or got stuff to sell/don't need and want
+              extra cash 💵💵
               <br />
               <br />
               Upload items with details
@@ -124,9 +127,9 @@ const Content = styled.div`
   @media screen and (max-width: 760px) {
     height: 90%;
     min-width: 270%;
-    margin-top: 0rem;
+    margin-top: 2rem;
     padding: 1rem;
-  //  border: 1px solid red;
+    //  border: 1px solid red;
   }
 `;
 
@@ -146,7 +149,39 @@ const Right = styled.div`
     width: 31%;
     margin-right: 2rem;
     padding: 0rem;
-  //  border: 1px solid red;
+    //  border: 1px solid red;
+  }
+`;
+
+const HeaderRight = styled.div`
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  margin-top: 0;
+  color: ${colors.primary};
+
+  & > span {
+    display: none;
+  }
+
+  @media screen and (max-width: 900px) {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  @media screen and (max-width: 760px) {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    margin-bottom: 8px;
+
+    & > h2 {
+      display: none;
+    }
+
+    & > span {
+      display: flex;
+    }
   }
 `;
 
@@ -167,14 +202,13 @@ const Header = styled.h2`
     font-weight: 600;
     line-height: 1.8rem;
   }
-
 `;
 
 const Discription = styled.span`
   font-size: 1.1rem;
 
   @media screen and (max-width: 900px) {
-    font-size: 0.8rem; 
+    font-size: 0.8rem;
   }
 `;
 
@@ -193,7 +227,7 @@ const Center = styled.div`
     width: 31%;
     margin-right: 2rem;
     padding: 0rem;
-  //  border: 1px solid red;
+    //  border: 1px solid red;
   }
 `;
 
@@ -212,7 +246,7 @@ const Left = styled.div`
     height: 85%;
     width: 31%;
     padding: 0rem;
-   // border: 1px solid red;
+    // border: 1px solid red;
   }
 `;
 
@@ -224,5 +258,6 @@ const Image = styled.img`
   @media screen and (max-width: 760px) {
     width: 50%;
     height: 75%;
+    margin-right: 10px;
   }
 `;

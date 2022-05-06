@@ -19,7 +19,7 @@ const Overview = () => {
           
           <Discription>
             A platform built to connect businesses and customers. Making
-            buyingand selling interesting.
+            buying and selling interesting.
           </Discription>
           <ButtonContainer>
             <Button>

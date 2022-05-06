@@ -56,8 +56,8 @@ const Sidebar = ({ isOpen, toggle }) => {
             >
               How to
             </SidebarLink>
-            <SidebarLink
-              to="about"
+            <TermsLink
+              to="/eureka-demo/terms-conditions"
               smooth={true}
               duration={1000}
               spy={true}
@@ -66,7 +66,7 @@ const Sidebar = ({ isOpen, toggle }) => {
               onClick={toggle}
             >
               Terms & Conditions
-            </SidebarLink>
+            </TermsLink>
           </SidebarMenu>
           <SideSocial>
             <Social>
@@ -141,6 +141,25 @@ export const SidebarMenu = styled.ul`
 `;
 
 export const SidebarLink = styled(LinkS)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.2s ease-in-out;
+  color: #000;
+  cursor: pointer;
+  margin-bottom: 2rem;
+
+  &:hover {
+    color: ${colors.primary};
+    transition: 0.2s ease-in-out;
+  }
+`;
+
+export const TermsLink = styled(LinkR)`
   display: flex;
   align-items: center;
   justify-content: center;

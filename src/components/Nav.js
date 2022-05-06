@@ -69,7 +69,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+//  position: fixed;
  // border-radius: 0 0 20px 20px;
   border-bottom: 2px solid ${({scrollNav}) => (scrollNav ? '#000000' : 'none')};
 `;
