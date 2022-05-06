@@ -7,9 +7,15 @@ import des from "../Assets/images/des2.png";
 import James from "../Assets/images/zara.png";
 
 const About = () => {
-  const teams = [Zim, david, des, James];
+  const teams = [
+    { title: "zim", img: Zim },
+    { title: "david", img: david },
+    { title: "desmond", img: des },
+    { title: "James (blaze)", img: James },
+  ];
 
-  const Team = () => teams.map((team) => <Image src={team} />);
+  const Team = () =>
+    teams.map((team) => <Image title={team.title} src={team.img} />);
 
   return (
     <Container id="about">
@@ -36,7 +42,7 @@ const About = () => {
             to see if they could work together and give us the best services we
             could never imagine, well it’s here now, Eureka Assemble” -Nick Fury
             (not really but you get it)
-          </Discription> 
+          </Discription>
         </LeftContent>
       </Left>
       <Right>
@@ -54,7 +60,7 @@ export default About;
 const Container = styled.div`
   height: 100vh;
   width: 100%;
-  margin-top: 0; 
+  margin-top: 0;
   display: flex;
   /* justify-content: center;
   align-items: center; */
@@ -156,7 +162,6 @@ const Image = styled.img`
     height: 100px;
     width: 100px;
     margin-right: 2rem;
-
   }
 
   @media screen and (max-width: 1500px) {
