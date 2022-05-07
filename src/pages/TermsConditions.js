@@ -359,7 +359,7 @@ const TermsConditions = () => {
           your Contributions. <br /> <br />
         </Details>
         {/* GUIDELINES FOR REVIEWS */}
-        <Headrer1>GUIDELINES FOR REVIEWS</Headrer1>
+        <Headrer2>GUIDELINES FOR REVIEWS</Headrer2>
         <Details>
           We may provide you areas on the Site to leave reviews or ratings. When
           posting a review, you must comply with the following criteria: <br />{" "}
