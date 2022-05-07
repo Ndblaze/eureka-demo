@@ -77,7 +77,7 @@ const Container = styled.div`
 const Content = styled.div`
   height: 1000%;
   width: 80%;
-  display: flex;
+  display: flex; 
   justify-content: space-between;
   align-items: center;
   

@@ -9,7 +9,7 @@ import James from "../Assets/images/James.png";
 const About = () => {
   const teams = [
     { title: "Goodhode Kudakwashe, Back-end Engineer", img: Zim },
-    { title: "david", img: david },
+    { title: "Zara", img: david },
     { title: "Desmond, Co Enjoyment Officer", img: des },
     { title: "Ndubuisi James (@nd_blaze), Front-end Engineer", img: James },
   ];

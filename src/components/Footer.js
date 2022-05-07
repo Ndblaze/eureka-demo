@@ -33,7 +33,7 @@ const Container = styled.div`
   }
 `;
 const Content = styled.div`
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
