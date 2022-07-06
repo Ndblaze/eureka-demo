@@ -18,8 +18,13 @@ const Overview = () => {
           </Mobile>
           
           <Discription>
-            A platform built to connect businesses and customers. Making
-            buying and selling interesting.
+            We built this for students to sell some of their stuff when migrating, to gain some cash.
+            <br /> if you got stuff to sell. We vibe with you.
+
+
+
+            {/* A platform built to connect businesses and customers. Making
+            buying and selling interesting. */}
           </Discription>
           <ButtonContainer>
             <Button>
@@ -252,7 +257,7 @@ const Right = styled.div`
 
 const Image = styled.img`
   height: 100%;
-  width: 85%;
+  width: 80%;
 
   @media screen and (max-width: 1000px) {
     height: 70%;

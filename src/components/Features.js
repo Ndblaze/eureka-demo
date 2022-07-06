@@ -33,7 +33,10 @@ const Features = () => {
         </Right>
         <Center>
           <div>
-            <Header>Earn money from selling your stuff</Header>
+            <Header>
+              {" "}
+              <span> Earn money from selling your stuff</span>{" "}
+            </Header>
             <Discription>
               Leaving the country ✈️ or got stuff to sell/don't need and want
               extra cash 💵💵
@@ -56,6 +59,7 @@ const Features = () => {
               <br />
               Discover products around you and in specific cities, shop and get
               your items.
+              <br />
               <br />
               <br />
             </Discription>
@@ -160,6 +164,11 @@ const HeaderRight = styled.div`
   margin-top: 0;
   color: ${colors.primary};
 
+  & > h2 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+
   & > span {
     display: none;
   }
@@ -191,6 +200,18 @@ const Header = styled.h2`
   line-height: 2.3rem;
   margin-top: 0;
   color: ${colors.primary};
+
+  & > span {
+    font-size: 2.4rem;
+
+    @media screen and (max-width: 900px) {
+      font-size: 2rem;
+    }
+
+    @media screen and (max-width: 760px) {
+      font-size: 1.5rem;
+    }
+  }
 
   @media screen and (max-width: 900px) {
     font-size: 2rem;
@@ -234,7 +255,7 @@ const Center = styled.div`
 const Left = styled.div`
   height: 100%;
   width: 30%;
-  margin-top: 15rem;
+  margin-top: 18rem;
   padding: 1rem;
 
   @media screen and (max-width: 760px) {

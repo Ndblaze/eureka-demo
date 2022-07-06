@@ -30,7 +30,7 @@ const About = () => {
             prices, so what are you waiting for?!
             <br />
             <br />
-            <Header>Mission Statement</Header>
+            <HeaderMission>Mission Statement</HeaderMission>
             The mission here at Eureka is to provide quality products with the
             most affordable prices and ease of payment with our numerous poste
             accounts and trusted vendors in every wilaya, transactions in
@@ -103,6 +103,21 @@ const Header = styled.h2`
   font-size: 2rem;
   font-weight: bold;
   margin-top: 0;
+  margin-bottom: 1rem;
+
+  @media screen and (max-width: 1200px) {
+    font-size: 1.5rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    font-size: 2rem;
+  }
+`;
+
+const HeaderMission = styled.h2`
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 40px;
   margin-bottom: 1rem;
 
   @media screen and (max-width: 1200px) {

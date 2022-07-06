@@ -2,7 +2,7 @@ import React from "react";
 import { FaTimes } from "react-icons/fa";
 import styled from "styled-components";
 import logo from "../Assets/images/logo.png";
-import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { colors } from "../config/colors";
 import { animateScroll as scroll, Link as LinkS } from "react-scroll";
@@ -70,8 +70,8 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarMenu>
           <SideSocial>
             <Social>
-              <a href="mailto: contact.eurekapp@gmail.com">
-                <Mail />{" "}
+              <a href="https://www.twitter.com/evrekapp">
+                <Twitter />{" "}
               </a>
               <a href="https://www.instagram.com/evrekapp">
                 {" "}
@@ -209,7 +209,7 @@ const Instagram = styled(BsInstagram)`
   font-size: 2rem;
 `;
 
-const Mail = styled(MdEmail)`
+const Twitter = styled(BsTwitter)`
   color: #0066cd;
   font-size: 2rem;
 `;
