@@ -70,9 +70,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarMenu>
           <SideSocial>
             <Social>
-              <Facebook />
-              <Instagram />
               <Mail />
+              <Instagram />
+              <Facebook />
             </Social>
           </SideSocial>
         </SidebarWrapper>

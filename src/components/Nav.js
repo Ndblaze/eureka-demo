@@ -61,7 +61,7 @@ const Nav = ({ toggle }) => {
 export default Nav;
 
 const Container = styled.div`
-  height: 70px;
+  height: 80px;
   width: 100%;
   z-index: 10;
   background-color: ${colors.primary};
@@ -109,8 +109,8 @@ const About = styled(LinkS)`
 
 const LogoContainer = styled(LinkR)``;
 const Logo = styled.img`
-  width: 55px;
-  height: 55px;
+  width: 70px;
+  height: 70px;
 
   transition-duration: 2s;
 

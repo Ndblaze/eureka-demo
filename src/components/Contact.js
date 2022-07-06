@@ -23,16 +23,16 @@ const Contact = () => {
         </Left>
         <Right>
           <Discription>
-            <span>W</span>e  are <br /> online  on
+            <span>W</span>e are <br /> online on
           </Discription>
           <SocialIcon>
-            <Icons>
+            <Icons href="https://www.twitter.com/evrekapp">
               <AiOutlineTwitter />
             </Icons>
-            <Icons>
+            <Icons href="https://www.instagram.com/evrekapp/">
               <AiOutlineInstagram />
             </Icons>
-            <Icons>
+            <Icons href="https://www.facebook.com/profile.php?id=100082706121396">
               <BsFacebook />
             </Icons>
           </SocialIcon>
@@ -200,11 +200,13 @@ const Discription = styled.h1`
 const SocialIcon = styled.div`
   display: flex;
   justify-content: center;
-  align-items:center ;
+  align-items: center;
   margin-top: -30px;
 `;
 
-const Icons = styled.div`
+const Icons = styled.a`
   font-size: 4rem;
   margin-right: 4rem;
+  color: black;
+  text-decoration: none;
 `;
