@@ -1192,7 +1192,10 @@ const TermsConditions = () => {
           Eureka <br />
           Residence Universite babezzouar 03, Algiers, Algeria. <br />
           +213 549332546, +213 782858341 <br />
-          contact.eurekapp@gmail.com <br />
+          <a href="mailto: contact.eurekapp@gmail.com">
+            contact.eurekapp@gmail.com
+          </a>{" "}
+          <br />
         </Details>
       </Content>
     </Wrapper>

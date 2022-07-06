@@ -43,7 +43,7 @@ const Overview = () => {
 export default Overview;
 
 const Container = styled.div`
-  height: 95vh;
+  height: 90vh;
   width: 100%;
   background-color: ${colors.primary};
   padding-top: 75px;
@@ -66,6 +66,7 @@ const Content = styled.div`
   width: 70%;
   display: flex;
   justify-content: center;
+  //margin-top: -30px;
   
   
  // border: 1px solid red;

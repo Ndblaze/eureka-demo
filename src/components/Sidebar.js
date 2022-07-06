@@ -70,9 +70,17 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarMenu>
           <SideSocial>
             <Social>
-              <Mail />
-              <Instagram />
-              <Facebook />
+              <a href="mailto: contact.eurekapp@gmail.com">
+                <Mail />{" "}
+              </a>
+              <a href="https://www.instagram.com/evrekapp">
+                {" "}
+                <Instagram />{" "}
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100082706121396">
+                {" "}
+                <Facebook />{" "}
+              </a>
             </Social>
           </SideSocial>
         </SidebarWrapper>
